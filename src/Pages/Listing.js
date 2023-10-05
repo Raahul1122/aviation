@@ -22,7 +22,7 @@ export default function Listing() {
                                 </div>
                                 <div class="card_box w-(100% ) bg-[#fff] shadow-xl shadow-[#A1D2D5] h-[538px]  rounded-[10px]">
                                     <div class="card_img w-[371px]">
-                                        <img src="/Assets/plane_1.png" alt="Aeroplane" className=' rounded-t-[10px]' />
+                                        <img src="/Assets/plane_2.png" alt="Aeroplane" className=' rounded-t-[10px]' />
                                     </div>
                                     <div className='card_text text-[20px] font-[400] mt-[23px] ml-[25px] text-[#000]'>
                                         <h5 className='leading-[3rem]'>1995 GIPPSAERO GA 200B</h5>
@@ -33,7 +33,7 @@ export default function Listing() {
                                 </div>
                                 <div class="card_box w-(100% ) bg-[#fff] shadow-xl shadow-[#A1D2D5] h-[538px]  rounded-[10px]">
                                     <div class="card_img w-[371px]">
-                                        <img src="/Assets/plane_1.png" alt="Aeroplane" className=' rounded-t-[10px]' />
+                                        <img src="/Assets/plane_3.png" alt="Aeroplane" className=' rounded-t-[10px]' />
                                     </div>
                                     <div className='card_text text-[20px] font-[400] mt-[23px] ml-[25px] text-[#000]'>
                                         <h5 className='leading-[3rem]'>1995 GIPPSAERO GA 200B</h5>

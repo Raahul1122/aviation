@@ -15,7 +15,7 @@ const SignIn = () => {
                     <h1 className='text-[#010101] font-medium text-[30px] text-center mb-14 mt-10'>Sign In</h1>
                     <div className=' w-[70%] m-auto'>
                         <div className='mb-4 px-2'>
-                            <label className="block text-[#111111] text-xl mb-1" for="username">
+                            <label className="block text-[#111111] text-[14px] mb-1" for="username">
                                 User name
                             </label>
                             <input
@@ -24,7 +24,7 @@ const SignIn = () => {
 
                         </div>
                         <div className='mb-4 px-2'>
-                            <label className="block text-[#111111] text-xl mb-1" for="username">
+                            <label className="block text-[#111111] text-[14px] mb-1" for="username">
                                 Password
                             </label>
                             <input
