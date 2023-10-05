@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 const SellerForm = (props) => {
   return (
     <>
-     
-     <div className='absolute right-8 top-8 text-[25px]'><RxCross1  onClick={(e) => { e.preventDefault(); props.handleModal(false) }} /></div>
+      <div className="modal-container absolute h-screen w-full top-0 bottom-0 left-0 right-0 flex items-center justify-center">
+            <div className="modal-body w-[654px] bg-[#fff]  relative  blur-none text-black shadow-xl shadow-[#A1D2D5] max-w-[654px] min-h-[670px]">
+     <div className='absolute right-8 top-8 text-[25px]'><RxCross1  onClick={(e) => { e.preventDefault(); props.handleModal(false)}} /></div>
           <h1 className='text-[#010101] font-medium text-[30px] text-center mb-4 mt-10'>Seller Form</h1>
           <div className=' w-[65%] m-auto'>
             <div className='mb-4'>
@@ -45,7 +46,7 @@ const SellerForm = (props) => {
 
 
           </div>
-        
+        </div></div>
      
     </>
   )

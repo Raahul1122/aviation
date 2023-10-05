@@ -17,12 +17,12 @@ function EmailPIn() {
                             length={4}
                             size='lg'
                             inputStyle={{
-                                border: "none",
+                                
 
                                 background: "#fffff",
                                 boxShadow: "none",
                                 focusBorderColor: "1px solid red",
-                                // border: "1px solid black"
+                                border: "1px solid black"
                             }}
 
                         />

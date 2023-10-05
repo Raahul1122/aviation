@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useParams } from 'react-router-dom';
 
 const Kyc = () => {
+  const { param1, param2 } = useParams();
   return (
     <>
      <div className='w-full h-screen flex justify-center items-center align-middle'>
