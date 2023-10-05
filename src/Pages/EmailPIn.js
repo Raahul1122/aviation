@@ -22,7 +22,7 @@ function EmailPIn() {
                                 background: "#fffff",
                                 boxShadow: "none",
                                 focusBorderColor: "1px solid red",
-                                border: "1px solid black"
+                                // border: "1px solid black"
                             }}
 
                         />

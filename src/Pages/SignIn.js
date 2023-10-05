@@ -9,7 +9,7 @@ const SignIn = () => {
     return (
         <>
         <div className="modal relative h-full w-full">
-        <div className={`p-3 w-full ${modal == true ? "blur-sm" : ""}`}>
+        <div className={`p-3 w-full ${modal === true ? "blur-sm" : ""}`}>
             <div className='w-full h-screen flex justify-center items-center align-middle'>
                 <div className='container max-w-[654px] min-h-[650px] bg-[#FFFFFF] shadow-xl shadow-[#A1D2D5] '>
                     <h1 className='text-[#010101] font-medium text-[30px] text-center mb-14 mt-10'>Sign In</h1>
